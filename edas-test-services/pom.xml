@@ -124,6 +124,33 @@
 			<artifactId>jedis</artifactId>
 		</dependency>
 
+		<!-- 引入elastic-job-lite核心模块 -->
+		<dependency>
+			<groupId>com.dangdang</groupId>
+			<artifactId>elastic-job-lite-core</artifactId>
+		</dependency>
+
+		<!-- 使用springframework自定义命名空间时引入 -->
+		<dependency>
+			<groupId>com.dangdang</groupId>
+			<artifactId>elastic-job-lite-spring</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-pool</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-all</artifactId>
+		</dependency>
+
+		<!-- rabbit mq -->
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+		</dependency>
+
 		<!-- logback配置 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -140,6 +167,12 @@
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.rongzhong</groupId>
+			<artifactId>component-yryz</artifactId>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 
 	</dependencies>

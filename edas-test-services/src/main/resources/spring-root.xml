@@ -23,5 +23,7 @@
 
     <import resource="classpath:spring-application.xml"/>
     <import resource="classpath:spring-dubbo.xml"/>
+    <import resource="classpath:spring-job.xml"/>
+    <import resource="classpath:spring-mq.xml"/>
 
 </beans>
